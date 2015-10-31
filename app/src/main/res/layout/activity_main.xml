@@ -24,7 +24,9 @@
     <!--bluetooth dropdown menu, appears in the middle-->
     <Spinner android:id="@+id/bluetoothConnectionsList"
         android:layout_width="fill_parent"
-        android:layout_height="16dp">
+        android:layout_height="64dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown">
     </Spinner>
     <!--version number, appears at bottom left corner-->
     <TextView android:id="@+id/versionNum"
